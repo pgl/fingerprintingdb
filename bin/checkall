@@ -8,9 +8,14 @@ for warcfile in sourcedb/**/*.warc
 do
     site=$(getsite "$warcfile")
 
-    echo "checking $site"
+    debug "checking $site"
 
     output=$(bin/testwarc "$warcfile")
 
-    [[ "$output" ]] && echo "$output" >> "detectiondb/$site.json"
+    if [[ "$output" ]]
+    then
+        debug "postive check on site $site, outputting JSON to detectiondb/$site.json"
+
+        echo "$output" >> "detectiondb/$site.json"
+    fi
 done
