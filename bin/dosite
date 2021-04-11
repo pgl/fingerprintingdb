@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+
+
+## create WARC file for site
+##
+
+geturl "$url"
+
+## check WARC file created OK
+##
+
+
+
+## run checks against WARC file
+##
+
+runchecks "$warcfile"
+
+## output DB should be updated if checks were positive

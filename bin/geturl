@@ -1,0 +1,46 @@
+#!/bin/bash
+
+set -e
+
+source 'bin/commonfuncs.sh'
+
+basedir="./sourcedb"
+tmpdir="$basedir/tmp"
+url="$1"
+
+[[ "$url" ]] || { echo "No urlspecified" ; exit ; }
+
+
+
+function dourl() {
+    ## create WARC file for URL
+    ##
+
+    url="$1"
+
+    hash=$(echo "$url" | sha256sum | cut -f1 -d' ')
+
+    warcfile="$tmpdir/$hash"
+
+    wget \
+        --no-warc-compression \
+        --delete-after \
+        --warc-file="$tmpdir/$hash" \
+        "$url" || return
+   
+    ## post process output file
+    ##
+
+    site=$(getsite "$tmpdir/$hash.warc")
+    outputdir="$basedir/$site"
+
+    [[ -d "$outputdir" ]] || {
+        echo "making output dir \"$outputdir\""
+        mkdir -vp "$outputdir"
+    }
+
+    mv -v "$tmpdir/$hash.warc" "$outputdir/"
+}
+
+
+dourl "$url"

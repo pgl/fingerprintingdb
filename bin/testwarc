@@ -1,0 +1,51 @@
+#!/bin/bash
+
+set -e
+
+source 'bin/commonfuncs.sh'
+
+infile="$1"
+
+[[ "$infile" ]] || { echo "No input file specified" ; exit ; }
+
+
+checksdir="./checks"
+sourcedb="./sourcedb"
+
+function output_json() {
+    local check="$1"
+    local site="$2"
+    local infile="$3"
+
+    timestamp=$(date --rfc-3339=seconds)
+
+    url=$(geturl "$infile")
+
+    cat << EOJSON
+        {
+          "$site": {
+            "url": "$url",
+            "source": "$infile",
+            "check": "$check",
+            "timestamp": "$timestamp"
+          }
+        }
+EOJSON
+}
+
+
+checks="$checksdir/*.check.sh"
+site=$(getsite "$infile")
+
+echo "site: $site"
+
+
+[[ "$site" ]] || { echo "unable to get site name" ; exit ; }
+
+
+for check in "$checksdir"/*.check.sh
+do
+    echo "site: $site, check: $check"
+
+    "$check" "$infile" && output_json "$check" "$site" "$infile"
+done
