@@ -7,5 +7,7 @@ source 'bin/commonfuncs.sh'
 for warcfile in sourcedb/**/*.warc
 do
     site=$(getsite "$warcfile")
-    bin/testwarc "$warcfile" >> "detectiondb/$site.json"
+    output=$(bin/testwarc "$warcfile")
+
+    [[ "$output" ]] && echo "$output" >> "detectiondb/$site.json"
 done
