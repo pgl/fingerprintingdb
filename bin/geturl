@@ -2,17 +2,17 @@
 
 set -e
 
-source 'bin/commonfuncs.sh'
+source 'bin/common.sh'
 
-basedir="./sourcedb"
-tmpdir="$basedir/tmp"
+sourcedir="$basedir/sourcedb"
+tmpdir="$sourcedir/tmp"
 url="$1"
 
-[[ "$url" ]] || { echo "No urlspecified" ; exit ; }
+[[ "$url" ]] || { debug "No url specified" ; exit ; }
 
 
 
-function dourl() {
+function download_url() {
     ## create WARC file for URL
     ##
 
@@ -32,10 +32,10 @@ function dourl() {
     ##
 
     site=$(getsite "$tmpdir/$hash.warc")
-    outputdir="$basedir/$site"
+    outputdir="$sourcedir/$site"
 
     [[ -d "$outputdir" ]] || {
-        echo "making output dir \"$outputdir\""
+        debug "making output dir \"$outputdir\""
         mkdir -vp "$outputdir"
     }
 
@@ -43,4 +43,4 @@ function dourl() {
 }
 
 
-dourl "$url"
+download_url "$url"

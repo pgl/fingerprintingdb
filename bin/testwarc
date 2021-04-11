@@ -1,12 +1,10 @@
 #!/bin/bash
 
-set -e
-
-source 'bin/commonfuncs.sh'
+source 'bin/common.sh'
 
 infile="$1"
 
-[[ "$infile" ]] || { echo "No input file specified" ; exit ; }
+#[[ "$infile" ]] || { debug "No input file specified" ; exit ; }
 
 
 checksdir="./checks"
@@ -21,7 +19,7 @@ function output_json() {
 
     url=$(geturl "$infile")
 
-    cat << EOJSON
+    cat <<-EOJSON
         {
           "$site": {
             "url": "$url",
@@ -31,21 +29,25 @@ function output_json() {
           }
         }
 EOJSON
+
 }
 
 
 checks="$checksdir/*.check.sh"
 site=$(getsite "$infile")
 
-debug "site: $site"
 
-
-[[ "$site" ]] || { echo "unable to get site name" ; exit ; }
-
+#[[ "$site" ]] || { debug "unable to get site name" ; exit ; }
 
 for check in "$checksdir"/*.check.sh
 do
     debug "site: $site, check: $check"
 
-    "$check" "$infile" && output_json "$check" "$site" "$infile"
+    debug "infile: $infile"
+
+    #"$check" "$infile" && output_json "$check" "$site" "$infile"
+    if "$check" "$infile"
+    then
+        output_json "$check" "$site" "$infile"
+    fi
 done

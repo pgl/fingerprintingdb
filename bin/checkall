@@ -2,11 +2,14 @@
 
 set -e
 
-source 'bin/commonfuncs.sh'
+source 'bin/common.sh'
 
 for warcfile in sourcedb/**/*.warc
 do
     site=$(getsite "$warcfile")
+
+    echo "checking $site"
+
     output=$(bin/testwarc "$warcfile")
 
     [[ "$output" ]] && echo "$output" >> "detectiondb/$site.json"

@@ -1,5 +1,7 @@
 set -e
 
+basedir=$(dirname $(dirname $(realpath $0)))
+
 function getsite() {
     ## gets site name from WARC file
     ##
