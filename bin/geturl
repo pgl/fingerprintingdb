@@ -2,7 +2,7 @@
 
 set -e
 
-source 'bin/common.sh'
+source 'common.bash'
 
 sourcedir="$basedir/sourcedb"
 tmpdir="$sourcedir/tmp"

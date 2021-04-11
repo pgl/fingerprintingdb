@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source 'bin/common.sh'
+source 'bin/common.bash'
 
 infile="$1"
 
