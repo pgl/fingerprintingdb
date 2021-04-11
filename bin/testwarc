@@ -37,7 +37,7 @@ EOJSON
 checks="$checksdir/*.check.sh"
 site=$(getsite "$infile")
 
-echo "site: $site"
+debug "site: $site"
 
 
 [[ "$site" ]] || { echo "unable to get site name" ; exit ; }
@@ -45,7 +45,7 @@ echo "site: $site"
 
 for check in "$checksdir"/*.check.sh
 do
-    echo "site: $site, check: $check"
+    debug "site: $site, check: $check"
 
     "$check" "$infile" && output_json "$check" "$site" "$infile"
 done

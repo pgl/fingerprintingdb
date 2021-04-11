@@ -34,3 +34,7 @@ function warcfilename() {
 
     echo "$hash.warc"
 }
+
+function debug() {
+    echo "$(date): $@" > /dev/stderr
+}
