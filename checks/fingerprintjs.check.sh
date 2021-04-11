@@ -9,4 +9,6 @@ fi
 
 file="$1"
 
-grep -qi fingerprintjs "$file"
+grep -qi '/fingerprint(js|-video)' "$file" ||
+grep -qi '/fingerprint[23]\.js' "$file" ||
+grep -qi '/event/fingerprint' "$file"
