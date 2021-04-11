@@ -25,3 +25,12 @@ function geturl() {
 		| perl -pe 's/\cM//'
 }
 
+
+function warcfilename() {
+    ## figure out WARC filename from URL
+    local url="$1"
+
+    hash=$(echo "$url" | sha256sum | cut -f1 -d' ')
+
+    echo "$hash.warc"
+}
