@@ -25,6 +25,7 @@ function download_url() {
     wget \
         --no-warc-compression \
         --delete-after \
+        --timeout=10 \
         --warc-file="$tmpdir/$hash" \
         "$url" || return
    
