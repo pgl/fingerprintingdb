@@ -4,6 +4,8 @@ set -e
 
 source 'bin/common.bash'
 
+debug "Check all script: starting"
+
 for warcfile in sourcedb/**/*.warc
 do
     site=$(getsite "$warcfile")
@@ -19,3 +21,5 @@ do
         echo "$output" >> "detectiondb/$site.json"
     fi
 done
+
+debug "Check all script: finished"
