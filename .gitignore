@@ -1,3 +1,4 @@
 sourcedb/*.*
 sourcedb/tmp/*
 tmp/
+logs/
