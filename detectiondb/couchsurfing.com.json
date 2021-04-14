@@ -1,0 +1,8 @@
+        {
+          "couchsurfing.com": {
+            "url": "<http://couchsurfing.com/>",
+            "source": "sourcedb/couchsurfing.com/54ec60a1f0ef638316dbfc0c8f5aa14714ea05af4d007cfa4599172381f0117e.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:11:26+02:00"
+          }
+        }

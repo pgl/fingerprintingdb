@@ -1,0 +1,8 @@
+        {
+          "secure.flickr.com": {
+            "url": "<http://secure.flickr.com/>",
+            "source": "sourcedb/secure.flickr.com/054ce697fc50ae1f1838ba490d15e9d61b8d8d83121f659908dbd86a3cb694d8.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:15:09+02:00"
+          }
+        }

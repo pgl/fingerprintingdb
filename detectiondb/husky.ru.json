@@ -1,0 +1,8 @@
+        {
+          "husky.ru": {
+            "url": "<http://husky.ru/>",
+            "source": "sourcedb/husky.ru/98b4683707a9c17aaca383430746fc7b384d2bb018811ce76aa95dee654717a5.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:12:45+02:00"
+          }
+        }

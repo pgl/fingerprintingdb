@@ -1,0 +1,8 @@
+        {
+          "maria-sigal.ru": {
+            "url": "<http://maria-sigal.ru/>",
+            "source": "sourcedb/maria-sigal.ru/972694ac9015f3a8ce86591b5cf8330a1da112333431d2163752a329547246cb.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:13:33+02:00"
+          }
+        }

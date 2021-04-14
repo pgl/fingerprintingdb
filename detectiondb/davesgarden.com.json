@@ -1,0 +1,8 @@
+        {
+          "davesgarden.com": {
+            "url": "<http://davesgarden.com/>",
+            "source": "sourcedb/davesgarden.com/b70a2fa6afbddc96f76e81f89efedef2b4039cf8267ba1dbd7bbd724f4d19fdd.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:11:34+02:00"
+          }
+        }

@@ -1,0 +1,8 @@
+        {
+          "tottoli-gsm.com": {
+            "url": "<http://tottoli-gsm.com/>",
+            "source": "sourcedb/tottoli-gsm.com/c8a197727de499b047e3085c4915050c0f4d0b8edfbb2aa8717dd6a588f13a5e.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:15:57+02:00"
+          }
+        }

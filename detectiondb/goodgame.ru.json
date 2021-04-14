@@ -1,0 +1,8 @@
+        {
+          "goodgame.ru": {
+            "url": "<http://goodgame.ru/>",
+            "source": "sourcedb/goodgame.ru/f1c04846d510e2e43985ef21dd51c47300ab0eee43e6eaf70331efc42fd18444.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:12:25+02:00"
+          }
+        }

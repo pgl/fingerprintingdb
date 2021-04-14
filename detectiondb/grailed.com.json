@@ -1,0 +1,8 @@
+        {
+          "grailed.com": {
+            "url": "<http://grailed.com/>",
+            "source": "sourcedb/grailed.com/ce4a787ce97032ea85a0ddf2c22e1a4d39440a26f74b712bff4cc0a9234e43ef.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:12:30+02:00"
+          }
+        }

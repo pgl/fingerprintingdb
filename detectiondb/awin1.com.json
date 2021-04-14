@@ -1,0 +1,8 @@
+        {
+          "awin1.com": {
+            "url": "<http://awin1.com/>",
+            "source": "sourcedb/awin1.com/85bbf047416f33920eeefff89b7b33a2f928488fa8b46b398b59fa5a04aa9c68.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:10:45+02:00"
+          }
+        }

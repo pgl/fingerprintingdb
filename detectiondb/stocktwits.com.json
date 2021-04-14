@@ -1,0 +1,8 @@
+        {
+          "stocktwits.com": {
+            "url": "<http://stocktwits.com/>",
+            "source": "sourcedb/stocktwits.com/1d027da4bb81dbde9f928e48a3b05751463104b1a205e2e4f98c9fbf09b7d5a8.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:15:30+02:00"
+          }
+        }

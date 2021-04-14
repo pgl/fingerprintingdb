@@ -1,0 +1,8 @@
+        {
+          "scribd.com": {
+            "url": "<http://scribd.com/>",
+            "source": "sourcedb/scribd.com/13d5da0cf4c62ce0ad733b1546d32d98d6a07d75266d60def771b7dccfc4ba8d.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:15:07+02:00"
+          }
+        }

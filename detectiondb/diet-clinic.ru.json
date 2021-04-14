@@ -1,0 +1,8 @@
+        {
+          "diet-clinic.ru": {
+            "url": "<http://diet-clinic.ru/>",
+            "source": "sourcedb/diet-clinic.ru/0c8a5a030b3e68feba7c045f04da2c94bd082ca715ff2d79f61d2efc76d732c3.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:11:40+02:00"
+          }
+        }

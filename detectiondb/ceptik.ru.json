@@ -1,0 +1,8 @@
+        {
+          "ceptik.ru": {
+            "url": "<http://ceptik.ru/>",
+            "source": "sourcedb/ceptik.ru/c3182ee3dc5ede8549fcfc96bc125aab31fc00c7fb0bd84b65be2723c35a366c.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:11:12+02:00"
+          }
+        }

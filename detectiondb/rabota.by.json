@@ -1,0 +1,8 @@
+        {
+          "rabota.by": {
+            "url": "<https://rabota.by/>",
+            "source": "sourcedb/rabota.by/01ba4895b024186165f34226d926b74007f1316208c6711e7aafaad2c4ebc878.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:14:47+02:00"
+          }
+        }

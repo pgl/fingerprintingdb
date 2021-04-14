@@ -1,0 +1,8 @@
+        {
+          "ksl.com": {
+            "url": "<http://ksl.com/>",
+            "source": "sourcedb/ksl.com/d9f0863d679514b6e0e23d71b431213cb5807ea72d3697d508d38a98bbab64f1.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:13:13+02:00"
+          }
+        }

@@ -1,0 +1,8 @@
+        {
+          "bebloks.ru": {
+            "url": "<http://bebloks.ru/>",
+            "source": "sourcedb/bebloks.ru/e72672757e24876d25875001491f793d84b44a1069025e66a75feec2bbc2f574.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:10:49+02:00"
+          }
+        }

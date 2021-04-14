@@ -1,0 +1,8 @@
+        {
+          "doityourself.com": {
+            "url": "<http://doityourself.com/>",
+            "source": "sourcedb/doityourself.com/1d980d3c1a04dc1f753a916087b8e6beca7468cd1fb1efd827add2bc38db11ff.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:11:45+02:00"
+          }
+        }

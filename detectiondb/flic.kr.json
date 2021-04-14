@@ -1,0 +1,8 @@
+        {
+          "flic.kr": {
+            "url": "<http://flic.kr/>",
+            "source": "sourcedb/flic.kr/dc5b29df313463d93d4d59c043903d95647aa6647f5405b72f5801a0c16c617a.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:12:09+02:00"
+          }
+        }

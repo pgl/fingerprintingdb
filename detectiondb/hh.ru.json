@@ -1,0 +1,8 @@
+        {
+          "hh.ru": {
+            "url": "<http://hh.ru/>",
+            "source": "sourcedb/hh.ru/bf95acd1e577d58d0213d45b96c444af1b7b45ce91f0e3a5886fa3b8d62e84ca.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:12:39+02:00"
+          }
+        }

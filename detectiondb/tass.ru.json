@@ -1,0 +1,8 @@
+        {
+          "tass.ru": {
+            "url": "<http://tass.ru/>",
+            "source": "sourcedb/tass.ru/948be5c2c5b4cdad9873e76623cdfffcc0ad71efe484b043425108e2aa6dcc82.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:15:38+02:00"
+          }
+        }

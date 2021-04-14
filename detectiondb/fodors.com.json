@@ -1,0 +1,8 @@
+        {
+          "fodors.com": {
+            "url": "<http://fodors.com/>",
+            "source": "sourcedb/fodors.com/23639957c2a0c359b450ccc1ee7692abce434e497d6ae7add53212925a7cfbca.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:12:10+02:00"
+          }
+        }

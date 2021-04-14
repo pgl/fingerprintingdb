@@ -1,0 +1,8 @@
+        {
+          "biblioteka.nekrasovka.ru": {
+            "url": "<http://biblioteka.nekrasovka.ru/>",
+            "source": "sourcedb/biblioteka.nekrasovka.ru/5d7896496b0a4ce7ecfbc63f238a5395a3c8944db8dfcb98ee09b6e7a55e6038.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:10:51+02:00"
+          }
+        }

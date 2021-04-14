@@ -1,0 +1,8 @@
+        {
+          "yadi.sk": {
+            "url": "<http://yadi.sk/>",
+            "source": "sourcedb/yadi.sk/c7824c46e29e7e511884839805338813ac018d3830cffbbc0a6c1bb4bb641ade.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:16:38+02:00"
+          }
+        }

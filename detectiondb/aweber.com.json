@@ -1,0 +1,8 @@
+        {
+          "aweber.com": {
+            "url": "<http://aweber.com/>",
+            "source": "sourcedb/aweber.com/d62d1aa7a5cad803f86331a350101d5cb0de99c64783175d45087ad98a9f67de.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-04-14 01:10:45+02:00"
+          }
+        }
