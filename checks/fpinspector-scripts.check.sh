@@ -27,7 +27,11 @@ fi
 
 file="$1"
 
+opts=''
+
+[[ $2 == '-v' ]] || opts=' -q'
 
 thisdir=$(dirname "$0")
 
-grep -q -f "$thisdir/assets/fpscriptnames.txt" -F "$file"
+#grep -q -f "$thisdir/assets/fpscriptnames.txt" -F "$file"
+grep $opts -f "$thisdir/assets/fpscriptnames.txt" -F "$file"
