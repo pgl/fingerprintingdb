@@ -13,3 +13,11 @@ https://github.com/uiowa-irl/FP-Inspector
 https://github.com/easylist/easylist/issues/created_by/UmarIqbal
 
 https://easylist.to/easylist/easyprivacy.txt
+
+https://publicwww.com/websites/fingerprintjs/
+
+
+
+Majestic Million - top domains
+
+  https://majestic.com/reports/majestic-million
