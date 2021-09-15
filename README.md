@@ -1,4 +1,4 @@
-# Fingerprint DB
+# Fingerprinting DB
 
 Execution harness and collection of checks for fingerprinting.
 
