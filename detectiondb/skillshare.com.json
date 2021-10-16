@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:15:17+02:00"
           }
         }
+        {
+          "skillshare.com": {
+            "url": "<http://skillshare.com/>",
+            "source": "sourcedb/skillshare.com/765278e0eb2f2ff79b55b6700654132f327b830d2b712eae8c088c30487cb0a9.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:41:38+02:00"
+          }
+        }
+        {
+          "skillshare.com": {
+            "url": "<http://skillshare.com/>",
+            "source": "sourcedb/skillshare.com/765278e0eb2f2ff79b55b6700654132f327b830d2b712eae8c088c30487cb0a9.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:35:06+02:00"
+          }
+        }

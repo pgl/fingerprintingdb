@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:15:01+02:00"
           }
         }
+        {
+          "rynak.by": {
+            "url": "<http://rynak.by/>",
+            "source": "sourcedb/rynak.by/9b5e6f00b36404304125a1000238ccff683071d105828528a9554f776c8ba646.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:41:15+02:00"
+          }
+        }
+        {
+          "rynak.by": {
+            "url": "<http://rynak.by/>",
+            "source": "sourcedb/rynak.by/9b5e6f00b36404304125a1000238ccff683071d105828528a9554f776c8ba646.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:34:43+02:00"
+          }
+        }

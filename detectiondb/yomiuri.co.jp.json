@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:16:40+02:00"
           }
         }
+        {
+          "yomiuri.co.jp": {
+            "url": "<http://yomiuri.co.jp/>",
+            "source": "sourcedb/yomiuri.co.jp/fd396abd6b75de4b8ab2eccf710c73afd746e594b9ca4c763d206c7f0208e34e.warc",
+            "check": "./checks/easyprivacy1.check.sh",
+            "timestamp": "2021-10-15 16:45:02+02:00"
+          }
+        }
+        {
+          "yomiuri.co.jp": {
+            "url": "<http://yomiuri.co.jp/>",
+            "source": "sourcedb/yomiuri.co.jp/fd396abd6b75de4b8ab2eccf710c73afd746e594b9ca4c763d206c7f0208e34e.warc",
+            "check": "./checks/easyprivacy1.check.sh",
+            "timestamp": "2021-10-15 17:38:03+02:00"
+          }
+        }

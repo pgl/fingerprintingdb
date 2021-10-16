@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:10:51+02:00"
           }
         }
+        {
+          "bezramka.ru": {
+            "url": "<http://bezramka.ru/>",
+            "source": "sourcedb/bezramka.ru/d978f894d5fd264736d268c61dae292eddd178e4c5288742764acf70f089579a.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:34:29+02:00"
+          }
+        }
+        {
+          "bezramka.ru": {
+            "url": "<http://bezramka.ru/>",
+            "source": "sourcedb/bezramka.ru/d978f894d5fd264736d268c61dae292eddd178e4c5288742764acf70f089579a.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:28:57+02:00"
+          }
+        }

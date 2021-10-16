@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:12:14+02:00"
           }
         }
+        {
+          "fruitylux.co.uk": {
+            "url": "<http://fruitylux.co.uk/>",
+            "source": "sourcedb/fruitylux.co.uk/a01aaae53cb574fffeaad120644127056ea30386d5a38cd309d56349f24f2b96.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:37:04+02:00"
+          }
+        }
+        {
+          "fruitylux.co.uk": {
+            "url": "<http://fruitylux.co.uk/>",
+            "source": "sourcedb/fruitylux.co.uk/a01aaae53cb574fffeaad120644127056ea30386d5a38cd309d56349f24f2b96.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:31:08+02:00"
+          }
+        }

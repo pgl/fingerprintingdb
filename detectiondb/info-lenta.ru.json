@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:12:53+02:00"
           }
         }
+        {
+          "info-lenta.ru": {
+            "url": "<http://info-lenta.ru/>",
+            "source": "sourcedb/info-lenta.ru/f12056c93284506dd4c86860904b6f3a57d79004d974572d10fa571b1655ee3d.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:38:10+02:00"
+          }
+        }
+        {
+          "info-lenta.ru": {
+            "url": "<http://info-lenta.ru/>",
+            "source": "sourcedb/info-lenta.ru/f12056c93284506dd4c86860904b6f3a57d79004d974572d10fa571b1655ee3d.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:32:04+02:00"
+          }
+        }

@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:11:49+02:00"
           }
         }
+        {
+          "dynatrace.com": {
+            "url": "<http://dynatrace.com/>",
+            "source": "sourcedb/dynatrace.com/78246828e09e7c64dc5c1f1a0d48de6d66c241b371cd18df42a25966b821c652.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:36:10+02:00"
+          }
+        }
+        {
+          "dynatrace.com": {
+            "url": "<http://dynatrace.com/>",
+            "source": "sourcedb/dynatrace.com/78246828e09e7c64dc5c1f1a0d48de6d66c241b371cd18df42a25966b821c652.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:30:23+02:00"
+          }
+        }

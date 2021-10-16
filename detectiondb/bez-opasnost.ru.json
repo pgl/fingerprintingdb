@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:10:51+02:00"
           }
         }
+        {
+          "bez-opasnost.ru": {
+            "url": "<http://bez-opasnost.ru/>",
+            "source": "sourcedb/bez-opasnost.ru/16170d74e6b467221465dc7d2c2a6eaf08135b173315beb9a97b2ab5f0292603.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:34:29+02:00"
+          }
+        }
+        {
+          "bez-opasnost.ru": {
+            "url": "<http://bez-opasnost.ru/>",
+            "source": "sourcedb/bez-opasnost.ru/16170d74e6b467221465dc7d2c2a6eaf08135b173315beb9a97b2ab5f0292603.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:28:57+02:00"
+          }
+        }

@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:12:49+02:00"
           }
         }
+        {
+          "ieeexplore.ieee.org": {
+            "url": "<http://ieeexplore.ieee.org/>",
+            "source": "sourcedb/ieeexplore.ieee.org/a60d836205b7c22618738b871014b3c153542ca90cd59ad66f9b5460954d9f47.warc",
+            "check": "./checks/fingerprintjs.check.sh",
+            "timestamp": "2021-10-15 16:38:03+02:00"
+          }
+        }
+        {
+          "ieeexplore.ieee.org": {
+            "url": "<http://ieeexplore.ieee.org/>",
+            "source": "sourcedb/ieeexplore.ieee.org/a60d836205b7c22618738b871014b3c153542ca90cd59ad66f9b5460954d9f47.warc",
+            "check": "./checks/fingerprintjs.check.sh",
+            "timestamp": "2021-10-15 17:31:58+02:00"
+          }
+        }

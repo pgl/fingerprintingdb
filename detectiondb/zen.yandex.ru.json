@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:16:43+02:00"
           }
         }
+        {
+          "zen.yandex.ru": {
+            "url": "<http://zen.yandex.ru/>",
+            "source": "sourcedb/zen.yandex.ru/9541af48835462c061964f0d558e4889bfa054b4f0e6e83bfc587cdc015842fb.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:45:08+02:00"
+          }
+        }
+        {
+          "zen.yandex.ru": {
+            "url": "<http://zen.yandex.ru/>",
+            "source": "sourcedb/zen.yandex.ru/9541af48835462c061964f0d558e4889bfa054b4f0e6e83bfc587cdc015842fb.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:38:07+02:00"
+          }
+        }

@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:15:52+02:00"
           }
         }
+        {
+          "tidal.com": {
+            "url": "<http://tidal.com/>",
+            "source": "sourcedb/tidal.com/0c890c134cc51f5546dbfa975add8322f5a41a2cfebb52313d2e42054eb0c795.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:42:29+02:00"
+          }
+        }
+        {
+          "tidal.com": {
+            "url": "<http://tidal.com/>",
+            "source": "sourcedb/tidal.com/0c890c134cc51f5546dbfa975add8322f5a41a2cfebb52313d2e42054eb0c795.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:35:51+02:00"
+          }
+        }

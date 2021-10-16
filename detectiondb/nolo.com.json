@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:14:09+02:00"
           }
         }
+        {
+          "nolo.com": {
+            "url": "<http://nolo.com/>",
+            "source": "sourcedb/nolo.com/0ef8b38199748b651c75277d52b7c1f2a1c908aa79b66966b2cbd3cf86e22836.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:39:59+02:00"
+          }
+        }
+        {
+          "nolo.com": {
+            "url": "<http://nolo.com/>",
+            "source": "sourcedb/nolo.com/0ef8b38199748b651c75277d52b7c1f2a1c908aa79b66966b2cbd3cf86e22836.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:33:39+02:00"
+          }
+        }

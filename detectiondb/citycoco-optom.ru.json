@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:11:17+02:00"
           }
         }
+        {
+          "citycoco-optom.ru": {
+            "url": "<http://citycoco-optom.ru/>",
+            "source": "sourcedb/citycoco-optom.ru/4d83d5346b71ed2e7ed62dd6663c011e63ccdb4da7e294df7e7b434486d371fe.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:35:16+02:00"
+          }
+        }
+        {
+          "citycoco-optom.ru": {
+            "url": "<http://citycoco-optom.ru/>",
+            "source": "sourcedb/citycoco-optom.ru/4d83d5346b71ed2e7ed62dd6663c011e63ccdb4da7e294df7e7b434486d371fe.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:29:36+02:00"
+          }
+        }

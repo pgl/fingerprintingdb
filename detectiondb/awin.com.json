@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:10:45+02:00"
           }
         }
+        {
+          "awin.com": {
+            "url": "<http://awin.com/>",
+            "source": "sourcedb/awin.com/b0b921f945e298e3f0074475b356747a2909e451d3030e8054393547d9b8aafa.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:34:17+02:00"
+          }
+        }
+        {
+          "awin.com": {
+            "url": "<http://awin.com/>",
+            "source": "sourcedb/awin.com/b0b921f945e298e3f0074475b356747a2909e451d3030e8054393547d9b8aafa.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:28:46+02:00"
+          }
+        }

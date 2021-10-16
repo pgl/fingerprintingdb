@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:12:54+02:00"
           }
         }
+        {
+          "inhabitat.com": {
+            "url": "<http://inhabitat.com/>",
+            "source": "sourcedb/inhabitat.com/ba706f04d7ebf7dc2740f338f60207e9aacaa9697f3a1620a40fcdf3fd0cb900.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:38:11+02:00"
+          }
+        }
+        {
+          "inhabitat.com": {
+            "url": "<http://inhabitat.com/>",
+            "source": "sourcedb/inhabitat.com/ba706f04d7ebf7dc2740f338f60207e9aacaa9697f3a1620a40fcdf3fd0cb900.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:32:04+02:00"
+          }
+        }

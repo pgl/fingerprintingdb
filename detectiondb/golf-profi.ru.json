@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:12:24+02:00"
           }
         }
+        {
+          "golf-profi.ru": {
+            "url": "<http://golf-profi.ru/>",
+            "source": "sourcedb/golf-profi.ru/efe87a6cbaac8ef5706168961afd80bed13a086f2ca96e99e1788ee1a397b0d0.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:37:22+02:00"
+          }
+        }
+        {
+          "golf-profi.ru": {
+            "url": "<http://golf-profi.ru/>",
+            "source": "sourcedb/golf-profi.ru/efe87a6cbaac8ef5706168961afd80bed13a086f2ca96e99e1788ee1a397b0d0.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:31:23+02:00"
+          }
+        }

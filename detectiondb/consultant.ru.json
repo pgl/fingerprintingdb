@@ -6,3 +6,19 @@
             "timestamp": "2021-04-14 01:11:24+02:00"
           }
         }
+        {
+          "consultant.ru": {
+            "url": "<http://consultant.ru/>",
+            "source": "sourcedb/consultant.ru/da4d122b72f399d33788794472d8733501707c27f3d66442f3f08eff2a74ea5c.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 16:35:28+02:00"
+          }
+        }
+        {
+          "consultant.ru": {
+            "url": "<http://consultant.ru/>",
+            "source": "sourcedb/consultant.ru/da4d122b72f399d33788794472d8733501707c27f3d66442f3f08eff2a74ea5c.warc",
+            "check": "./checks/fpinspector-scripts.check.sh",
+            "timestamp": "2021-10-15 17:29:47+02:00"
+          }
+        }
