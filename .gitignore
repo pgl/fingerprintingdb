@@ -1,4 +1,4 @@
-sourcedb/*.*
-sourcedb/tmp/*
+sites/*.*
+sites/tmp/*
 tmp/
 logs/
