@@ -4,7 +4,7 @@ set -e
 
 source 'bin/common.bash'
 
-sourcedir="$basedir/sourcedb"
+sourcedir="$basedir/sites"
 tmpdir="$sourcedir/tmp"
 url="$1"
 

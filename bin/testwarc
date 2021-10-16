@@ -8,7 +8,7 @@ infile="$1"
 
 
 checksdir="./checks"
-sourcedb="./sourcedb"
+sites="./sites"
 
 function output_json() {
     local check="$1"
